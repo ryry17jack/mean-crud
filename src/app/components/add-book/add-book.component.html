@@ -1,0 +1,22 @@
+<h1>เพิ่มข้อมูล</h1>
+<div class="row justify-content-center mt-3">
+  <div class="col-md-12">
+    <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">ชื่อหนังสือ</label>
+        <input type="text" class="form-control" formControlName="name" required>
+      </div>
+      <div class="form-group">
+        <label for="price">ราคา</label>
+        <input type="text" class="form-control" formControlName="price" required>
+      </div>
+      <div class="form-group">
+        <label for="description">คำอธิบาย</label>
+        <input type="text" class="form-control" formControlName="description" required>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block">Add Book</button>
+      </div>
+    </form>
+  </div>
+</div>

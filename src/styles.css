@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;500&display=swap');
+
+h1,h2,h3,h4,h5,h6, th {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 500;
+}
+
+button.btn {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 200;
+}
+
+* , body , .nav-item, td{
+  font-family: 'Mitr', sans-serif;
+  font-weight: 300;
+}
